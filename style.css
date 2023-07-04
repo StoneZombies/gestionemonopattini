@@ -1,0 +1,56 @@
+/* Regole generali */
+body{
+    background-image: url(Img/background.jpg);
+    background-size: cover;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+body > div{
+    width: 1100px;
+    margin:  40px auto;
+    padding: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+/* Header e Nav */
+header, nav{
+    text-align: center;
+}
+nav{
+    padding: 15px;
+    background-color: rgb(0, 221, 0);
+}
+h1{
+    color: rgb(0, 221, 0);
+}
+img{
+    width: 250px;
+}
+/* Main */
+h2{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+section > span{
+    display: block;
+    font-size: 19px;
+}
+.special::before{
+content: "\21E5";
+}
+.load{
+    height: 30px;
+    border-radius: 5px;
+}
+.load.large{
+    width: 60%;
+    background-color: rgb(30, 195, 30);
+}
+.load.medium{
+    width: 31%;
+    background-color: rgb(245, 180, 83);
+}
+.load.small{
+    width: 14%;
+    background-color: rgb(190, 65, 65);
+}
